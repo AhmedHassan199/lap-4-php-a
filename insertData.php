@@ -1,5 +1,7 @@
 <?php
-session_start();
+require 'all.php';
+?>
+<?php
 $useName = $_SESSION['username']  ;
 $email= $_SESSION['Email']  ;
 $gander = $_SESSION['Gander']  ;

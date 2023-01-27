@@ -1,4 +1,8 @@
+<?php
+require 'conc.php';
+require 'all.php';
 
+ ?>
 <h2>Form</h2>
 <form method="post" action="sign_up.php">  
   Name: <input type="text" name="name">

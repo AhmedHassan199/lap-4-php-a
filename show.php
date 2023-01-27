@@ -1,6 +1,7 @@
-<a href="form.php">Add New User</a>
+
 <?php
-session_start();
+
+require 'all.php';
 require 'conc.php';
 $user_id ="";
 if (isset($_POST['edit'])){
@@ -34,9 +35,6 @@ if(isset($_GET['id'])){
   }
   
 }
-
-
-
 
 //the query
 $query="select* from persons";

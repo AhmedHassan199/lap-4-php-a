@@ -1,4 +1,9 @@
+
+
+
 <?php
+require 'all.php';
+
 $male= '';
 $famale= '';
 $agreement = '' ;
